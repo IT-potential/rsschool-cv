@@ -23,6 +23,7 @@ Become a professional Java script developer. Become a worthy position in the com
 ## _Courses_
 RS-shool: [https://app.rs.school/profile](https://app.rs.school/profile)
 
+
 ## _Languages_
 `Russian` - Native speaker<br>
-`English` - Upper-Intermediate
+`English` - Upper-Intermediate (B1)
