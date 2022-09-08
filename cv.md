@@ -21,7 +21,7 @@ Become a professional Java script developer. Become a worthy position in the com
 * Photoshop
 
 ## _Courses_
-RS-shool: [https://app.rs.school/profile](https://app.rs.school/profile)
+RS-shool: [https://app.rs.school/profile](https://app.rs.school/profile)<br>
 Youtube: Learn JS
 
 ## _Languages_
