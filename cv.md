@@ -26,4 +26,4 @@ Youtube: Learn JS
 
 ## _Languages_
 `Russian` - Native speaker<br>
-`English` - Upper-Intermediate
+`English` - Upper-Intermediate (B1
