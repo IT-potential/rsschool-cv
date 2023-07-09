@@ -4,7 +4,7 @@
     /* margin: 0; */
     /* border: 0.1vh rgb(241, 241, 235) solid; */
 }
-p, div {
+p, h1, div {
     margin: 0;
     padding: 0;
     color: black;
@@ -18,6 +18,7 @@ h1 {
     font-weight: 400;
     line-height: 1.5;
     color: rgb(40, 227, 2);
+    margin-bottom: 10px;
 }
 h2 {
     font-weight: 300;
@@ -25,7 +26,7 @@ h2 {
     font-size: 20px;
     font-style: oblique;
     font-weight: 400;
-    color: whitesmoke;
+    color: rgb(16, 15, 15);
 }
 .nav-list {
     display: flex;
@@ -53,11 +54,8 @@ a:hover {
 }
 header {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
-    /* display: flex;
-    justify-content: center; */
 }
 body {  
-    /* max-width: 1440px; */
     height: 100%;
     margin: 0px auto;
     /* align-items: center; */
@@ -70,14 +68,14 @@ body {
  #courses, #skills  {
     width: 250px;
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
- }
+}
 .grid {
     margin-top: 4cqb;
     max-width: 1440px;
     min-height: 100vh;
     align-items: center;
     display: grid;
-    grid-template-columns: 0.4fr 1fr 0.75fr;
+    grid-template-columns: 0.4fr 1fr 0.77fr;
     grid-template-rows: repeat(5);
     /* grid-row-gap: 5px; */
     align-items: start;
@@ -87,37 +85,35 @@ body {
     grid-template-columns: 0.6fr 0.4fr;
     grid-template-rows: repeat(4);
 }
+.course_icon {
+    background-image: url('./assets/bnb-bnb-logo.svg');
+    border: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
 .container {
     max-width: 1440px;
     margin: 0px auto;
     background-color: rgb(228, 248, 237); 
-    ;
 }
 .icon {
     width: 20px;
     height: 20px;
-    margin-right: 15px;
+    margin: 10px 13px 0 0;
 }
 .proffession {
     font-style: oblique;
     color:black;
+    margin-bottom: 15px;
 }
  .img_background {
     width: 250px; 
     height: 250px;
     border-radius: 5%;
     background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
-    }
-  .edct_background {
-    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
-    width: 530px; 
-    height: 75px;     
-  }
-  .bgckr_back {
-    background-color: rgb(228, 248, 237);
-    margin-top: 3.7px;
-  }
-
+    margin-bottom: 3px;    
+}
   .main_img {
     margin: 5px 0 0 5px;
     width: 240px; 
@@ -127,9 +123,12 @@ body {
     background-repeat: no-repeat;
     border-radius: 50%;
   }
-  footer {
+  .course_list {
+    list-style: none;
+  }
+   footer {
     display: grid;
-    grid-template-columns: 0.35fr 1fr 0.65fr;
+    grid-template-columns: 0.4fr 1fr 0.2fr;
     /* background-color:#78c5b0 ; */
     background-color: #68fa7c;
     align-items: center;
@@ -138,4 +137,8 @@ body {
   }
   .footer_container {
     width: 50px;
+  }
+  .footer_end {
+    font-style: oblique;
+    justify-content: end;
   }
