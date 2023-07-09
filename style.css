@@ -1,3 +1,141 @@
-. {}
-.{}
-.{}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    /* margin: 0; */
+    /* border: 0.1vh rgb(241, 241, 235) solid; */
+}
+p, div {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(40, 227, 2);
+}
+h2 {
+    font-weight: 300;
+    line-height: 0;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-link {
+    /* margin: 0 20px; */
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+    color:#05fc26;
+}
+a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: #45f63c;
+    border: 1px solid #05fc26;
+    border-radius: 40%;
+}
+header {
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    /* display: flex;
+    justify-content: center; */
+}
+body {  
+    /* max-width: 1440px; */
+    height: 100%;
+    margin: 0px auto;
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #829985;   
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+ }
+ #education, #english,
+ #courses, #skills  {
+    width: 250px;
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+ }
+.grid {
+    margin-top: 4cqb;
+    max-width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.75fr;
+    grid-template-rows: repeat(5);
+    /* grid-row-gap: 5px; */
+    align-items: start;
+}
+.grid_icons {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: repeat(4);
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: rgb(228, 248, 237); 
+    ;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.proffession {
+    font-style: oblique;
+    color:black;
+}
+ .img_background {
+    width: 250px; 
+    height: 250px;
+    border-radius: 5%;
+    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    }
+  .edct_background {
+    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    width: 530px; 
+    height: 75px;     
+  }
+  .bgckr_back {
+    background-color: rgb(228, 248, 237);
+    margin-top: 3.7px;
+  }
+
+  .main_img {
+    margin: 5px 0 0 5px;
+    width: 240px; 
+    height: 240px;
+    background: url("./assets/metoo.jpg") center center/ cover no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr 0.65fr;
+    /* background-color:#78c5b0 ; */
+    background-color: #68fa7c;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+  }
+  .footer_container {
+    width: 50px;
+  }
