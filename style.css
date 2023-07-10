@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    /* margin: 0; */
-    /* border: 0.1vh rgb(241, 241, 235) solid; */
+    /* border: 0.1vh rgb(235, 235, 8) solid; */
 }
 p, h1, div {
     margin: 0;
@@ -19,6 +18,11 @@ h1 {
     line-height: 1.5;
     color: rgb(40, 227, 2);
     margin-bottom: 10px;
+    background-repeat: repeat-x;
+    width: 205px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0 1.06em;
+    background-size: 16px 9px;
 }
 h2 {
     font-weight: 300;
@@ -27,6 +31,23 @@ h2 {
     font-style: oblique;
     font-weight: 400;
     color: whitesmoke;
+}
+.proffession {
+    font-style: oblique;
+    color: rgb(40, 227, 2);
+    margin-bottom: 15px;
+}
+.code_h2 {
+    color: rgb(40, 227, 2);
+    margin-bottom: 30px;
+}
+h3 {
+    margin: 0 0 20px 0;
+    color: rgb(40, 227, 2);
+}
+.code_example {
+    font-style: oblique;
+    line-height: 1.5;
 }
 .nav-list {
     display: flex;
@@ -82,8 +103,9 @@ body {
 }
 .grid_icons {
     display: grid;
-    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-columns: 0.53fr 0.45fr;
     grid-template-rows: repeat(4);
+    line-height: 0.6;
 }
 .course_icon {
     background-image: url('./assets/bnb-bnb-logo.svg');
@@ -100,12 +122,13 @@ body {
 .icon {
     width: 20px;
     height: 20px;
-    margin: 10px 13px 0 0;
+    margin: 16px 13px 0 0;
+    cursor: pointer;
 }
-.proffession {
-    font-style: oblique;
-    color:black;
-    margin-bottom: 15px;
+.icon_lang {
+    width: 20px;
+    height: 20px;
+    margin: 6px 13px 0 0;
 }
  .img_background {
     width: 250px; 
@@ -125,10 +148,11 @@ body {
   }
   .course_list {
     list-style: none;
+    margin: 0;
   }
    footer {
     display: grid;
-    grid-template-columns: 0.4fr 1fr 0.2fr;
+    grid-template-columns: 0.4fr 1fr 0.22fr;
     /* background-color:#78c5b0 ; */
     background-color: #68fa7c;
     align-items: center;
@@ -141,4 +165,16 @@ body {
   .footer_end {
     font-style: oblique;
     justify-content: end;
+  }
+  .violet {
+    color: rgb(116, 27, 151);
+  }
+  .orange {
+    color: orange;
+  }
+  .blue {
+    color: rgb(150, 150, 214)
+  }
+  a {
+    color: black
   }
