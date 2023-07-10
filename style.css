@@ -1,6 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0cap;   
     /* border: 0.1vh rgb(235, 235, 8) solid; */
 }
 p, h1, div {
@@ -8,21 +14,16 @@ p, h1, div {
     padding: 0;
     color: black;
 }
-html {
-    scroll-behavior: smooth;
-    height: 100%;
-    width: 100%;
-}
 h1 {
     font-weight: 400;
     line-height: 1.5;
     color: rgb(40, 227, 2);
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     background-repeat: repeat-x;
-    width: 205px;
+    width: 200px;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
     background-position: 0 1.06em;
-    background-size: 16px 9px;
+    background-size: 10px 10px;
 }
 h2 {
     font-weight: 300;
@@ -35,7 +36,7 @@ h2 {
 .proffession {
     font-style: oblique;
     color: rgb(40, 227, 2);
-    margin-bottom: 15px;
+    margin-bottom: 37px;
 }
 .code_h2 {
     color: rgb(40, 227, 2);
@@ -86,7 +87,7 @@ body {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
  }
  #education, #english,
- #courses, #skills  {
+ #courses, #skills, #code  {
     width: 250px;
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
 }
@@ -101,11 +102,10 @@ body {
     /* grid-row-gap: 5px; */
     align-items: start;
 }
-.grid_icons {
+.grid_skills {
     display: grid;
-    grid-template-columns: 0.53fr 0.45fr;
+    grid-template-columns: 0.6fr 0.4fr;
     grid-template-rows: repeat(4);
-    line-height: 0.6;
 }
 .course_icon {
     background-image: url('./assets/bnb-bnb-logo.svg');
@@ -122,8 +122,18 @@ body {
 .icon {
     width: 20px;
     height: 20px;
-    margin: 16px 13px 0 0;
+    margin: 5px 12px 0px 0;
     cursor: pointer;
+}
+#english {
+    margin-top: 28px;
+}
+.code {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.languages {
+    margin: 15px 0 25px 0;
 }
 .icon_lang {
     width: 20px;
@@ -150,7 +160,7 @@ body {
     list-style: none;
     margin: 0;
   }
-   footer {
+  footer {
     display: grid;
     grid-template-columns: 0.4fr 1fr 0.22fr;
     /* background-color:#78c5b0 ; */
@@ -158,6 +168,7 @@ body {
     align-items: center;
     color: black;
     cursor: pointer;
+    margin-top: 15px;
   }
   .footer_container {
     width: 50px;
