@@ -1,3 +1,180 @@
-. {}
-.{}
-.{}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    /* border: 0.1vh rgb(235, 235, 8) solid; */
+}
+p, h1, div {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(40, 227, 2);
+    margin-bottom: 10px;
+    background-repeat: repeat-x;
+    width: 205px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0 1.06em;
+    background-size: 16px 9px;
+}
+h2 {
+    font-weight: 300;
+    line-height: 0;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.proffession {
+    font-style: oblique;
+    color: rgb(40, 227, 2);
+    margin-bottom: 15px;
+}
+.code_h2 {
+    color: rgb(40, 227, 2);
+    margin-bottom: 30px;
+}
+h3 {
+    margin: 0 0 20px 0;
+    color: rgb(40, 227, 2);
+}
+.code_example {
+    font-style: oblique;
+    line-height: 1.5;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-link {
+    /* margin: 0 20px; */
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+    color:#05fc26;
+}
+a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: #45f63c;
+    border: 1px solid #05fc26;
+    border-radius: 40%;
+}
+header {
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+}
+body {  
+    height: 100%;
+    margin: 0px auto;
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #829985;   
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+ }
+ #education, #english,
+ #courses, #skills  {
+    width: 250px;
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+}
+.grid {
+    margin-top: 4cqb;
+    max-width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.77fr;
+    grid-template-rows: repeat(5);
+    /* grid-row-gap: 5px; */
+    align-items: start;
+}
+.grid_icons {
+    display: grid;
+    grid-template-columns: 0.53fr 0.45fr;
+    grid-template-rows: repeat(4);
+    line-height: 0.6;
+}
+.course_icon {
+    background-image: url('./assets/bnb-bnb-logo.svg');
+    border: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: rgb(228, 248, 237); 
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 16px 13px 0 0;
+    cursor: pointer;
+}
+.icon_lang {
+    width: 20px;
+    height: 20px;
+    margin: 6px 13px 0 0;
+}
+ .img_background {
+    width: 250px; 
+    height: 250px;
+    border-radius: 5%;
+    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    margin-bottom: 3px;    
+}
+  .main_img {
+    margin: 5px 0 0 5px;
+    width: 240px; 
+    height: 240px;
+    background: url("./assets/metoo.jpg") center center/ cover no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  .course_list {
+    list-style: none;
+    margin: 0;
+  }
+   footer {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.22fr;
+    /* background-color:#78c5b0 ; */
+    background-color: #68fa7c;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+  }
+  .footer_container {
+    width: 50px;
+  }
+  .footer_end {
+    font-style: oblique;
+    justify-content: end;
+  }
+  .violet {
+    color: rgb(116, 27, 151);
+  }
+  .orange {
+    color: orange;
+  }
+  .blue {
+    color: rgb(150, 150, 214)
+  }
+  a {
+    color: black
+  }
