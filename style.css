@@ -80,7 +80,6 @@ header {
 body {  
     height: 100%;
     margin: 0px auto;
-    /* align-items: center; */
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #829985;   
@@ -162,13 +161,13 @@ body {
   }
   footer {
     display: grid;
-    grid-template-columns: 0.4fr 1fr 0.22fr;
-    /* background-color:#78c5b0 ; */
+    grid-template-columns: 0.4fr 1fr 0.12fr;
     background-color: #68fa7c;
     align-items: center;
     color: black;
     cursor: pointer;
     margin-top: 15px;
+    height: 70px
   }
   .footer_container {
     width: 50px;
@@ -176,6 +175,10 @@ body {
   .footer_end {
     font-style: oblique;
     justify-content: end;
+    margin-left: 35%
+  }
+  .footer_img {
+    margin-bottom: 0;
   }
   .violet {
     color: rgb(116, 27, 151);
@@ -188,4 +191,7 @@ body {
   }
   a {
     color: black
+  }
+  .year {
+    margin-left: 45px 
   }
