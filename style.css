@@ -1,7 +1,14 @@
+@import "style/variables.css";
+
 html {
     scroll-behavior: smooth;
     height: 100%;
     width: 100%;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: rgb(228, 248, 237); 
 }
 * {
     box-sizing: border-box;
@@ -9,42 +16,67 @@ html {
     margin: 0cap;   
     /* border: 0.1vh rgb(235, 235, 8) solid; */
 }
+body {  
+    height: 100%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #0c0c0c;   
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+ }
 p, h1, div {
     margin: 0;
     padding: 0;
-    color: black;
 }
+
+ #education, #english,
+ #courses, #skills, #code  {
+    border-radius: 45%;
+    width: 250px;
+    height: 30px;
+}
+
 h1 {
     font-weight: 400;
     line-height: 1.5;
     color: rgb(40, 227, 2);
-    margin-bottom: 13px;
+    margin: 0 0 13px 0;
     background-repeat: repeat-x;
-    width: 200px;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
     background-position: 0 1.06em;
     background-size: 10px 10px;
+    max-width: 211px;
 }
 h2 {
-    font-weight: 300;
-    line-height: 0;
+    font-weight: 400;
+    color: #cee9e6;
     font-size: 20px;
     font-style: oblique;
-    font-weight: 400;
-    color: whitesmoke;
+    text-align: center;
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    border-radius: 45%;
+    width: 250px;
+    height: 30px;
+
 }
+.contacts {
+    color: black;
+}
+
 .proffession {
     font-style: oblique;
     color: rgb(40, 227, 2);
     margin-bottom: 37px;
 }
-.code_h2 {
+
+.code_h3 {
     color: rgb(40, 227, 2);
-    margin-bottom: 30px;
 }
+
 h3 {
     margin: 0 0 20px 0;
     color: rgb(40, 227, 2);
+    font-style: oblique;
 }
 .code_example {
     font-style: oblique;
@@ -77,19 +109,6 @@ a:hover {
 header {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
 }
-body {  
-    height: 100%;
-    margin: 0px auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #829985;   
-    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
- }
- #education, #english,
- #courses, #skills, #code  {
-    width: 250px;
-    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
-}
 .grid {
     margin-top: 4cqb;
     max-width: 1440px;
@@ -105,6 +124,7 @@ body {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
     grid-template-rows: repeat(4);
+    color: black;
 }
 .course_icon {
     background-image: url('./assets/bnb-bnb-logo.svg');
@@ -112,11 +132,6 @@ body {
     width: 15px;
     height: 15px;
     margin-right: 20px;
-}
-.container {
-    max-width: 1440px;
-    margin: 0px auto;
-    background-color: rgb(228, 248, 237); 
 }
 .icon {
     width: 20px;
@@ -129,11 +144,14 @@ body {
 }
 .code {
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
+
 .languages {
-    margin: 15px 0 25px 0;
+    margin: 10px 0 15px 0;
+    color: black;
 }
+
 .icon_lang {
     width: 20px;
     height: 20px;
@@ -157,8 +175,12 @@ body {
   }
   .course_list {
     list-style: none;
-    margin: 0;
   }
+  .course_background {
+    margin-bottom: 10px;
+  }
+
+
   footer {
     display: grid;
     grid-template-columns: 0.4fr 1fr 0.12fr;
