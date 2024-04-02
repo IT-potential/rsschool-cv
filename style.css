@@ -21,7 +21,7 @@ body {
     margin: 0px auto;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #829985;   
+    color: #0c0c0c;   
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
  }
 p, h1, div {
@@ -144,6 +144,7 @@ header {
 }
 .code {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .languages {
@@ -176,7 +177,7 @@ header {
     list-style: none;
   }
   .course_background {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
 
