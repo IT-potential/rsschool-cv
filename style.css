@@ -1,0 +1,219 @@
+@import "style/variables.css";
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: rgb(228, 248, 237); 
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0cap;   
+    /* border: 0.1vh rgb(235, 235, 8) solid; */
+}
+body {  
+    height: 100%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #0c0c0c;   
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+ }
+p, h1, div {
+    margin: 0;
+    padding: 0;
+}
+
+ #education, #english,
+ #courses, #skills, #code  {
+    border-radius: 45%;
+    width: 250px;
+    height: 30px;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(40, 227, 2);
+    margin: 0 0 13px 0;
+    background-repeat: repeat-x;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0 1.06em;
+    background-size: 10px 10px;
+    max-width: 211px;
+}
+h2 {
+    font-weight: 400;
+    color: #cee9e6;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    border-radius: 45%;
+    width: 250px;
+    height: 30px;
+
+}
+.contacts {
+    color: black;
+}
+
+.proffession {
+    font-style: oblique;
+    color: rgb(40, 227, 2);
+    margin-bottom: 37px;
+}
+
+.code_h3 {
+    color: rgb(40, 227, 2);
+}
+
+h3 {
+    margin: 0 0 20px 0;
+    color: rgb(40, 227, 2);
+    font-style: oblique;
+}
+.code_example {
+    font-style: oblique;
+    line-height: 1.5;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-link {
+    /* margin: 0 20px; */
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+    color:#05fc26;
+}
+a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: #45f63c;
+    border: 1px solid #05fc26;
+    border-radius: 40%;
+}
+header {
+    background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+}
+.grid {
+    margin-top: 4cqb;
+    max-width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.77fr;
+    grid-template-rows: repeat(5);
+    /* grid-row-gap: 5px; */
+    align-items: start;
+}
+.grid_skills {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: repeat(4);
+    color: black;
+}
+.course_icon {
+    background-image: url('./assets/bnb-bnb-logo.svg');
+    border: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 12px 0px 0;
+    cursor: pointer;
+}
+#english {
+    margin-top: 28px;
+}
+.code {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.languages {
+    margin: 10px 0 15px 0;
+    color: black;
+}
+
+.icon_lang {
+    width: 20px;
+    height: 20px;
+    margin: 6px 13px 0 0;
+}
+ .img_background {
+    width: 250px; 
+    height: 250px;
+    border-radius: 5%;
+    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+    margin-bottom: 3px;    
+}
+  .main_img {
+    margin: 5px 0 0 5px;
+    width: 240px; 
+    height: 240px;
+    background: url("./assets/metoo.jpg") center center/ cover no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  .course_list {
+    list-style: none;
+  }
+  .course_background {
+    margin-bottom: 10px;
+  }
+
+
+  footer {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.12fr;
+    background-color: #68fa7c;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 70px
+  }
+  .footer_container {
+    width: 50px;
+  }
+  .footer_end {
+    font-style: oblique;
+    justify-content: end;
+    margin-left: 35%
+  }
+  .footer_img {
+    margin-bottom: 0;
+  }
+  .violet {
+    color: rgb(116, 27, 151);
+  }
+  .orange {
+    color: orange;
+  }
+  .blue {
+    color: rgb(150, 150, 214)
+  }
+  a {
+    color: black
+  }
+  .year {
+    margin-left: 45px 
+  }
