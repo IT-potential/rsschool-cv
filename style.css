@@ -10,6 +10,18 @@ html {
     margin: 0px auto;
     background-color: rgb(228, 248, 237); 
 }
+.grid {
+    margin-top: 4cqb;
+    max-width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.77fr;
+    grid-template-rows: repeat(5);
+    /* grid-row-gap: 5px; */
+    align-items: start;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -46,6 +58,7 @@ h1 {
     background-position: 0 1.06em;
     background-size: 10px 10px;
     max-width: 211px;
+    font-size: 29px;
 }
 h2 {
     font-weight: 400;
@@ -65,6 +78,7 @@ h2 {
 
 .proffession {
     font-style: oblique;
+    font-size: 20px;
     color: rgb(40, 227, 2);
     margin-bottom: 37px;
 }
@@ -109,17 +123,7 @@ a:hover {
 header {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
 }
-.grid {
-    margin-top: 4cqb;
-    max-width: 1440px;
-    min-height: 100vh;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 0.4fr 1fr 0.77fr;
-    grid-template-rows: repeat(5);
-    /* grid-row-gap: 5px; */
-    align-items: start;
-}
+
 .grid_skills {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
