@@ -111,14 +111,19 @@
             <div class="code">
                 <h3 class="code_h3">Base Conversion</h3>
 
-                <p class="code_example"><span class="violet">function</span> <
-                        class="orange"><span class="orange">fromAlphabetToDec</span>(<span class="orange">input, alphabet</span>) {
+                <p class="code_example"><span class="violet">function</span> 
+                    <span class="orange"></span><span class="orange">fromAlphabetToDec</span>(
+                        <span class="orange">input, alphabet</span>) {
                 </p>
-                <p class="code_example"><span class="violet">let</span> <span class="orange">alphLength</span> = <span
-                        class="blue">alphabet</span>.length;</p>
-                <p class="code_example"><span class="violet">let</span> <span class="orange">arr_input</span> = <span
-                        class="blue">input</span>.split("").map((<span class="orange">el</span>) => <span
-                        class="blue">alphabet</span>.indexOf(<span class="orange">el</span>));</p>
+                <p class="code_example"><span class="violet">let</span> 
+                    <span class="orange">alphLength</span> = <span class="blue">alphabet</span>.length;</p>
+
+                <p class="code_example"><span class="violet">let</span> 
+                    <span class="orange">arr_input</span> = 
+                    <span class="blue">input</span>.split("").map((
+                    <span class="orange">el</span>) =&gt
+                    <span class="blue">alphabet</span>.indexOf(<span class="orange">el</span>));</p>
+
                 <p class="code_example"><span class="violet">return</span> fromBaseToDec(<span class="blue">arr_input,
                         alphLength</span>);</p>
                 <p class="code_example"> }</p>
