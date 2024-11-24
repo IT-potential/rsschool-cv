@@ -126,11 +126,17 @@ header {
     grid-template-rows: repeat(4);
     color: black;
 }
-.course_icon {
-    background-image: url('./assets/bnb-bnb-logo.svg');
+.course_list {
+    list-style: none;
     border: none;
-    width: 15px;
-    height: 15px;
+  }
+  .course_background {
+    margin-bottom: 10px;
+  }
+.course_icon {
+    border: none;
+    width: 20px;
+    height: 20px;
     margin-right: 20px;
 }
 .icon {
@@ -139,6 +145,7 @@ header {
     margin: 5px 12px 0px 0;
     cursor: pointer;
 }
+
 #english {
     margin-top: 28px;
 }
@@ -173,13 +180,6 @@ header {
     background-repeat: no-repeat;
     border-radius: 50%;
   }
-  .course_list {
-    list-style: none;
-  }
-  .course_background {
-    margin-bottom: 10px;
-  }
-
 
   footer {
     display: grid;
