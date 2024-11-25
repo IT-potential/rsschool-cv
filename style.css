@@ -155,7 +155,7 @@ header {
 }
 .code {
     margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .languages {
@@ -197,14 +197,24 @@ header {
   }
   .footer_container {
     width: 170px;
+    margin-left: 100%;
   }
   .footer_end {
-    font-style: oblique;
+    /* font-style: oblique; */
     justify-content: end;
-    margin-left: 35%
+    margin-left: 50%
   }
   .footer_img {
+    width: 260px;
+    height: 70px;
     margin-bottom: 0;
+    margin-right: 180px;
+    border-radius: 48%;
+    background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+  }
+  .eays_img {
+    margin-left: 10%;
+    border-radius: 50%;
   }
   .violet {
     color: rgb(116, 27, 151);
