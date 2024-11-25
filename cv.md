@@ -1,5 +1,5 @@
 # Zlata Romanova
-# # # VUE JS frontend developer
+### VUE JS frontend developer
 
 ## Contact information:
 + @forofjob
@@ -20,6 +20,27 @@ besides there’s a huge amount of free high quality resources for self-educatio
 
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>
 
+## Skills and Proficiency
++ HTML5, CSS3
++ JavaScript
++ Git, GitHub
++ VS Code, IntelliJ IDEA
++ Adobe Photoshop, Illustrator, InDesign
 
+## Code example
+```
+function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    if (leftSum === rightSum) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+```
 
 
