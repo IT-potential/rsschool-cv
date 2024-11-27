@@ -35,7 +35,8 @@ body {
     font-size: 18px;
     color: #0c0c0c;   
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
- }
+    background-attachment: scroll;
+  }
 p, h1, div {
     margin: 0;
     padding: 0;
@@ -51,8 +52,8 @@ p, h1, div {
 h1 {
     font-weight: 400;
     line-height: 1.5;
-    color: rgb(40, 227, 2);
-    margin: 0 0 13px 0;
+    color: rgb(21, 97, 6);
+    margin: 20px 0 13px 0;
     background-repeat: repeat-x;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
     background-position: 0 1.06em;
@@ -70,7 +71,7 @@ h2 {
     border-radius: 45%;
     width: 250px;
     height: 30px;
-
+    margin-top: 0px;
 }
 .contacts {
     color: black;
@@ -80,7 +81,7 @@ h2 {
     font-style: oblique;
     font-size: 20px;
     color: rgb(40, 227, 2);
-    margin-bottom: 37px;
+    margin-bottom: 10px;
 }
 
 .code_h3 {
@@ -124,6 +125,10 @@ header {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
 }
 
+.education_background {
+    color: rgb(21, 97, 6);
+}
+
 .grid_skills {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
@@ -154,12 +159,12 @@ header {
     margin-top: 28px;
 }
 .code {
-    margin-top: 15px;
-    /* margin-bottom: 15px; */
+    margin: 15px 0 15px;
+    margin-bottom: 15px;
 }
 
 .languages {
-    margin: 10px 0 15px 0;
+    margin: 15px 0 20px 0;
     color: black;
 }
 
@@ -193,29 +198,29 @@ header {
     color: black;
     cursor: pointer;
     margin-top: 15px;
-    height: 70px
-  }
+    height: 79px
+}
   .footer_container {
+    display: grid;
+    grid-template-columns: 0.25fr 0.37fr 0.26fr 0.5fr;
+  }
+
+  .footer_start {
     width: 170px;
-    margin-left: 100%;
   }
   .footer_end {
-    /* font-style: oblique; */
-    justify-content: end;
-    margin-left: 50%
-  }
-  .footer_img {
-    width: 260px;
+    width: 263px;
     height: 70px;
     margin-bottom: 0;
-    margin-right: 180px;
     border-radius: 48%;
     background: 65px url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
+   
+    .eays_img {
+        margin-left: 12%;
+        border-radius: 50%;
+      }
   }
-  .eays_img {
-    margin-left: 10%;
-    border-radius: 50%;
-  }
+  
   .violet {
     color: rgb(116, 27, 151);
   }
