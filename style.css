@@ -71,7 +71,7 @@ h2 {
     border-radius: 45%;
     width: 250px;
     height: 30px;
-
+    margin-top: 0px;
 }
 .contacts {
     color: black;
@@ -81,7 +81,7 @@ h2 {
     font-style: oblique;
     font-size: 20px;
     color: rgb(40, 227, 2);
-    margin-bottom: 37px;
+    margin-bottom: 10px;
 }
 
 .code_h3 {
@@ -125,6 +125,10 @@ header {
     background-image: url('./assets/240_F_177903846_wZVss88Hz3JZy4YlNe034e0UwJvaoXna.jpg');
 }
 
+.education_background {
+    color: rgb(21, 97, 6);
+}
+
 .grid_skills {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
@@ -155,12 +159,12 @@ header {
     margin-top: 28px;
 }
 .code {
-    margin-top: 15px;
-    /* margin-bottom: 15px; */
+    margin: 15px 0 15px;
+    margin-bottom: 15px;
 }
 
 .languages {
-    margin: 10px 0 15px 0;
+    margin: 15px 0 20px 0;
     color: black;
 }
 
